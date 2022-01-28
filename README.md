@@ -2,12 +2,16 @@
 A take home assessment for Gemini
 
 
-Any necessary instructions for running your script
+**Any necessary instructions for running your script**
+
 It can be ran with/without a command line argument
+
+'''
 python3 apiAlerts.py
 python3 apiAlerts.py -h
-python3 apiAlerts.py -c btcusd -d 1
-python3 apiAlerts.py -c ethusd -d 1
+python3 apiAlerts.py -c btcusd -d 10
+python3 apiAlerts.py -c ethusd -d 15
+'''
 
 Any dependencies that need to be met
 
