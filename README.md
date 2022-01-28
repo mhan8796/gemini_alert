@@ -18,7 +18,7 @@ The dependency file is requirements.txt
 I had a dockerfile but the environment was diffcult to setup. I am using a windows machine. It requires to enable virtualization and hypervisor. The dockerfile is not uploaded because it was tested.
 
 ## What you would do next to further improve it
-I could implement a function to first tell user all of the existing symbols. Currently, users may not know the symbol input.
+I could implement a function to first tell user all of the existing symbols. Currently, users may not know the available symbol input.
 
 
 ## Other interesting checks you might implement to alert on market behaviour
