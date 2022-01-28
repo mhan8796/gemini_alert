@@ -2,7 +2,7 @@
 A take home assessment for Gemini
 
 
-###### Any necessary instructions for running your script###### 
+## Any necessary instructions for running your script
 
 It can be ran with/without a command line argument
 
