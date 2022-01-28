@@ -6,23 +6,26 @@ A take home assessment for Gemini
 
 It can be ran with/without a command line argument
 
-'''
+```
+pip install -r requirements.txt
 python3 apiAlerts.py
 python3 apiAlerts.py -h
 python3 apiAlerts.py -c btcusd -d 10
 python3 apiAlerts.py -c ethusd -d 15
-'''
+```
 
-Any dependencies that need to be met
+**Any dependencies that need to be met**
 
-Optional: A dockerfile to run the script
+The dependency file is requirements.txt
 
-What you would do next to further improve it
+**Optional: A dockerfile to run the script**
 
-Other interesting checks you might implement to alert on market behaviour
+**What you would do next to further improve it**
 
-Your approach to solving the task, and any issues you faced with implementation
+**Other interesting checks you might implement to alert on market behaviour**
+
+**Your approach to solving the task, and any issues you faced with implementation**
 
 
-The time it took you to write it
+**The time it took you to write it**
 It took me one hour to write the code. However, reading and understanding the requirements takes extra time. Setting up the environment also took time.
