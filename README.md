@@ -1,7 +1,6 @@
 # Gemini_alert
 A take home assessment for Gemini
 
-
 ## Any necessary instructions for running your script
 It can be ran with/without a command line argument
 ```
@@ -11,17 +10,17 @@ python3 apiAlerts.py -h
 python3 apiAlerts.py -c btcusd -d 10
 python3 apiAlerts.py -c ethusd -d 15
 ```
-## Any dependencies that need to be met
 
+## Any dependencies that need to be met
 The dependency file is requirements.txt
 
 ## Optional: A dockerfile to run the script
+I had a dockerfile but the environment was diffcult to setup. I am using a windows machine. It requires to enable virtualization and hypervisor. The dockerfile is not uploaded because it was tested.
 
 ## What you would do next to further improve it
 
 ## Other interesting checks you might implement to alert on market behaviour
-
-
+I could implement a linear regressiong perdiction on the future data based on the existing data. Something like this https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html.
 
 ## Your approach to solving the task, and any issues you faced with implementation
 Could not understand the requirements after reading it. However the sample output helped greatly. At the beginning, I was not sure where to get the data. I thought the code could generate the random data. Then I browesed the public API and found the data. It would be very helpful to explicly say that the data will be obtained from the API. Also, for the DEBUG level I am not sure how it is being used. The script was called in CLI and I am not sure what behavior could trigger the DEBUG. I didn't implement DEBUG.
